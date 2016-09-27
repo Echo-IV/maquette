@@ -1,0 +1,196 @@
+body{
+    background-color: #000;
+}
+
+/** BLOC **/
+
+.container {
+    width:975px;
+    margin:auto;
+    background:url(../img/bg.jpg);
+}
+
+#content {
+    background:url(../img/full.jpg);
+    width:720px;
+    margin:auto;
+}
+
+#left {
+    width:402px;
+}
+
+#mid {
+    width:30px;
+    height:372px;
+    background:url(../img/middle.jpg);
+}
+
+#right {
+    width:268px;
+
+}
+
+#img_title{
+    width:268px;
+    height:372px;
+    margin-left:-15px;
+    background:url(../img/title.jpg) no-repeat;
+}
+
+ h1 {
+    color: white;
+    font-size: 60px;
+    letter-spacing: -5px;
+    line-height: 44px;
+    margin-left: -15px;
+    margin-top: 0;
+    text-align: center;
+     position: relative;
+     top:80px;
+}
+
+#footer{
+    position: relative;
+    left: 18px;
+}
+
+#img_footer{
+    position: absolute;
+    right:-18px;
+    bottom:0;
+}
+
+#txt_footer{
+    bottom: 0;
+    left: 42px;
+    position: absolute;
+    z-index: 1;
+}
+
+/** STYLES **/
+
+h2 {
+    font-size: 25px;
+    font-weight:900;
+    color:white;
+    border-top: solid 2px yellow;
+    margin-top:10px;
+}
+
+p{
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+h3{
+    background-color:yellow;
+    font-size: 18px;
+    color:black;
+    font-weight: 900;
+    padding:0;
+    margin:0;
+}
+
+strong{
+    color: yellow;
+    font-weight: 900;
+}
+
+.tags {
+    border-left: solid 2px yellow;
+    padding-left:5px;
+    width:385px;
+}
+
+#skate_left{
+    float:left;
+    margin-top: 3px;
+    padding: 2px;
+    margin-right: 5px;
+    border:2px solid yellow;
+}
+
+#skate_right{
+    float:right;
+    margin-top: 3px;
+    padding: 2px;
+    margin-right: 5px;
+    border:2px solid yellow;
+}
+
+#paragraph2{
+    color: #fff;
+}
+
+#quote_txt{
+    border-top:solid 2px yellow;
+    border-bottom:solid 2px yellow;
+    background-color:rgb(34,34,34);
+    margin-bottom: 5px;
+    padding: 5px;
+    width:265px;
+    margin:auto;
+
+}
+
+ul > li{
+    list-style-type:none;
+
+}
+
+ul > li > img{
+    margin-left:-15px;
+    padding-right:5px;
+}
+
+h6{
+    font-weight:900;
+    text-align: center;
+    color: #fff;
+}
+
+ul, ol{
+    color: white;
+}
+
+.tab {
+    background-color: rgb(85,85,85);
+    border-top: solid 1px grey;
+    padding: 3px;
+}
+
+#col {
+    margin-bottom:20px;
+    padding-bottom:15px;
+}
+
+.news{
+    border: solid 2px yellow;
+    width: 233px;
+
+}
+
+.news > p {
+    padding:5px;
+}
+
+h4{
+    color:white;
+    font-weight: bold;
+    border-top:2px solid yellow;
+}
+
+.star {
+    font-weight:900;
+    font-size:20px;
+}
+
+.last-updated{
+    background-color: yellow;
+    color:rgb(236,21,91);
+    font-weight: 900;
+    width: 230px;
+    padding:2px;
+}
